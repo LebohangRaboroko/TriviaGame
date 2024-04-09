@@ -1,0 +1,30 @@
+.root {
+    -fx-background-image: url('back.png');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-text-fill: White;
+    -fx-font-weight: bold;
+    -fx-font-size: 22px;
+}
+
+.mediaPane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+}
+
+.button {
+    -fx-min-width: 150px;
+    -fx-max-height: 200px;
+    -fx-background-color: #096336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #3CB371;
+}
